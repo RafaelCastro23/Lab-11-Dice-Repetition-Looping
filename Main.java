@@ -32,6 +32,7 @@ class Main
       System.out.printf("[4]: %d times%n", count4);
       System.out.printf("[5]: %d times%n", count5);
       System.out.printf("[6]: %d times%n", count6);
+      System.out.printf("total number of rolls: " + (count1 + count2 + count3 + count4 + count5 + count6));
     }
   }
   public static int roll()
@@ -40,3 +41,4 @@ class Main
     return dice.nextInt(6) + 1;
   }
 }
+
